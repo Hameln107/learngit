@@ -1,5 +1,9 @@
 #include <windows.h>
+#include <vector>
 
+
+
+#include <algorithm>
 
 void NewLine(void);
 void ScrollScreenBuffer(HANDLE, INT);
