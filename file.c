@@ -1,12 +1,13 @@
 #include <windows.h>
 #include <vector>
-
+#include <string>
 
 
 #include <algorithm>
 
 void NewLine(void);
 void ScrollScreenBuffer(HANDLE, INT);
+int hello(int x);
 
 HANDLE stdout, stdin;
 CONSOLE_SCREEN_BUFFER_INFO info;
@@ -171,3 +172,8 @@ void ScrollScreenBuffer(HANDLE h, INT x) {
 	ScrollConsoleScreenBuffer(
 		h, &srctScrollRect, &srctClipRect, coordDest, &chiFill);
 }
+
+int hello(int x) {
+	return x * 2;
+}
+
