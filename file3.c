@@ -2,7 +2,7 @@
 
 
 int plusten(int x);
-int change(int (*ptr)(int), int x);
+int change(int (*pointer)(int), int x);
 
 
 int main() {	
@@ -18,6 +18,6 @@ int plusten(int x) {
 	return x + 10;
 }
 
-int change(int (*ptr)(int), int x) {
-	return ptr(x);
+int change(int (*pointer)(int), int x) {
+	return pointer(x);
 }
