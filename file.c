@@ -13,6 +13,7 @@ int main() {
 		printf("%i ", arr[i]);
 
 	printf("\nCommit 1\n");
+	printf("Commit 2\n");
 
 	return 0;
 }
