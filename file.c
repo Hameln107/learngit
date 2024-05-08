@@ -14,6 +14,7 @@ int main() {
 
 	printf("\nCommit 1\n");
 	printf("Commit 2\n");
+	printf("Commit 3\n");
 
 	return 0;
 }
