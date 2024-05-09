@@ -16,5 +16,7 @@ int main() {
 	printf("Commit 2\n");
 	printf("Commit 3\n");
 
+	printf("Commit 4 (in newly_created)\n");
+
 	return 0;
 }
